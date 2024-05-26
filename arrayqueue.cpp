@@ -50,8 +50,6 @@ int Queue::back() {
 }
 
 int main(){
-
-
     Queue queue;
     queue.enqueue(111);
     queue.enqueue(222);

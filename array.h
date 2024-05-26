@@ -20,8 +20,8 @@ public:
 class Queue {
 private:
     int arr[MAX_SIZE];
-    int frontIndex;
-    int backIndex;
+    int front_index;
+    int rear_index;
 
 public:
     Queue();

@@ -1,4 +1,5 @@
-#include "LinkedList.h"
+
+#include "linkedlist.h"
 
 class Queue : public LinkedList {
 public:
@@ -36,8 +37,6 @@ int main(){
     cout << "Front element of queue: " << queue.front() << endl;
     cout << "Back element of queue: " << queue.back() << endl;
     cout << "Dequeued element from queue: " << queue.dequeue() << endl;
-    cout << "Is queue empty? " << (queue.isEmpty() ? "Yes" : "No") << endl;
-
+    cout << "Is queue empty? " << (queue.isempty() ? "Yes" : "No") << endl;
     return 0;
-
 }
